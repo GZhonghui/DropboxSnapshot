@@ -1,0 +1,8 @@
+name: dropbox-snapshot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.13
+  - pip=26.1.2
+  - pip:
+      - -r requirements.lock.txt
